@@ -1,0 +1,72 @@
+Phase 4: MongoDB Connection
+
+Create:
+
+// config/db.js
+
+const mongoose = require("mongoose");
+
+const connectDB = async () => {
+  await mongoose.connect(process.env.MONGO_URI);
+};
+
+module.exports = connectDB;
+Commit
+git commit -m "Configure MongoDB database connection"
+Phase 5: User Authentication
+
+Create:
+
+User Model
+name
+email
+password
+role
+APIs
+POST /register
+
+POST /login
+Features
+Password Hashing
+JWT Token Generation
+Commit
+git commit -m "Implement JWT authentication system"
+Phase 6: React Frontend Setup
+
+Create Frontend:
+
+npx create-vite@latest client --template react
+
+cd client
+
+npm install
+
+Install:
+
+npm install axios react-router-dom
+Structure
+client/src
+
+├── components
+├── pages
+├── services
+├── layouts
+├── routes
+└── App.jsx
+Commit
+git commit -m "Initialize React frontend"
+Phase 7: Login & Register Pages
+
+Pages:
+
+Login.jsx
+
+Register.jsx
+
+Features:
+
+Form Validation
+API Integration
+Token Storage
+Commit
+git commit -m "Create authentication pages"
