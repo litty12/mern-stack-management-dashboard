@@ -27,3 +27,14 @@ bcrypt
 Database
 
 MongoDB Atlas
+git init
+
+git add .
+
+git commit -m "Initial project setup"
+
+git branch -M main
+
+git remote add origin <repository-url>
+
+git push -u origin main
