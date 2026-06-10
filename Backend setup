@@ -1,0 +1,27 @@
+server/
+│
+├── config/
+│   └── db.js
+│
+├── controllers/
+│
+├── middleware/
+│
+├── models/
+│
+├── routes/
+│
+├── .env
+│
+├── server.js
+│
+└── package.json
+INSTALL PACKAGES
+npm init -y
+
+npm install express mongoose cors dotenv bcryptjs jsonwebtoken
+
+npm install nodemon --save-dev
+
+Git commit
+git commit -m "Setup Express server and MongoDB connection"
