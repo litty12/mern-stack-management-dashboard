@@ -1,0 +1,29 @@
+Project Planning
+Features:
+User Authentication (Login/Register)
+Dashboard Home
+User Management
+Role Management (Admin/User)
+Analytics Charts
+Profile Management
+Responsive Design
+Tech Stack
+
+Frontend
+
+React.js
+React Router
+Axios
+Tailwind CSS or Bootstrap
+Recharts
+
+Backend
+
+Node.js
+Express.js
+JWT Authentication
+bcrypt
+
+Database
+
+MongoDB Atlas
